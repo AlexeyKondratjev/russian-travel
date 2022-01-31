@@ -1,0 +1,37 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 80px 0;
+}
+
+.place:last-child {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .place {
+    padding-bottom: 73px;
+  }
+
+  .place:first-child .place__title {
+    width: 44%;
+    margin-right: 51px;
+  }
+}
+
+@media (max-width: 500px) {
+  .place {
+    padding-bottom: 50px;
+  }
+
+  .place:first-child .place__title {
+    width: 90%;
+    margin-right: 0;
+  }
+
+  /*Компенсация очевидного косяка в макете: перенос слов "... привязывает себя к мотоциклу..." в карточке
+  "Зимний Байкал" (для 320px).*/
+  .place:last-child {
+    padding-top: 26px;
+  }
+}

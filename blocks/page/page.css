@@ -1,0 +1,17 @@
+.page {
+  margin: 0 auto;
+  color: #fff;
+  background-color: #2A2C2F;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  /* Ограничим максимальное растяжение страницы. */
+  max-width: 1600px;
+  /*Включим сглаживание, подгонку размеров текста в Firefox и браузерах на движке Webkit...*/
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /*...а также оптимизируем читаемость текстов при рендеринге.*/
+  text-rendering: optimizeLegibility;
+}

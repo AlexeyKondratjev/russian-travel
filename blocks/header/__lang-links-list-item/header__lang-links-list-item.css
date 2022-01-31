@@ -1,0 +1,8 @@
+.header__lang-links-list-item {
+  margin-right: 18px;
+  margin-bottom: 5px;
+}
+
+.header__lang-links-list-item:last-child {
+  margin-right: 0;
+}

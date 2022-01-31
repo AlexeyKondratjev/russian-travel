@@ -1,0 +1,12 @@
+.lead__image-with-caption-group {
+  display: flex;
+  flex-direction: column;
+  width: 90.6%;
+  max-width: 984px;
+}
+
+@media (max-width: 768px) {
+  .lead__image-with-caption-group {
+    width: 100%;
+  }
+}

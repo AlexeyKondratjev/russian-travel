@@ -1,0 +1,14 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-clip: content-box;
+  margin: 0 auto;
+  /*Задаем соотношение сторон в соответсвии с макетом и ограничиваем растяжение.*/
+  width: 100vw;
+  max-width: 1184px;
+  height: calc(100vw * 0.625);
+  max-height: 740px;
+}

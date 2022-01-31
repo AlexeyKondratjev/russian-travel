@@ -1,0 +1,11 @@
+.place__title-and-web-site-group {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 500px) {
+  .place__title-and-web-site-group {
+    flex-direction: column;
+    margin-left: 16px;
+  }
+}
