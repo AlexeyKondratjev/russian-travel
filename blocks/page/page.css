@@ -6,7 +6,7 @@
   font-weight: normal;
   font-style: normal;
   /* Ограничим максимальное растяжение страницы. */
-  max-width: 1600px;
+  max-width: 1280px;
   /*Включим сглаживание, подгонку размеров текста в Firefox и браузерах на движке Webkit...*/
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
