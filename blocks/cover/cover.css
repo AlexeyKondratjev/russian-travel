@@ -9,15 +9,27 @@
   /*Задаем соотношение сторон в соответсвии с макетом и ограничиваем растяжение.*/
   width: 100vw;
   max-width: 1184px;
-  height: calc(100vw * 0.578);
+  min-height: 740px;
 }
 
 .cover:hover .cover__link::after {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgb(42, 44, 47, .8);
 }
 
 @media (max-width: 1024px) {
   .cover {
-    height: calc(100vw * 0.625);
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    min-height: 200px;
   }
 }
